@@ -1,0 +1,56 @@
+body {
+    background-color: #f3f3f3;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+nav {
+    margin: 0 20px;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid #000000;
+}
+
+#navbar>div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+a {
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#link {
+    text-decoration: underline;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+code {
+    background-color: #d7d7d8;
+    padding: 10px;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    code {
+        line-height: 30px;
+    }
+}
